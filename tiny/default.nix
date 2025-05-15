@@ -2,8 +2,8 @@
 rustPlatform.buildRustPackage rec {
   pname = "tinyirc";
   version = "0.13.0";
-	owner = "osa1";
-	repo = "tiny";
+  owner = "osa1";
+  repo = "tiny";
 
   src = fetchFromGitHub {
 		inherit owner repo;
